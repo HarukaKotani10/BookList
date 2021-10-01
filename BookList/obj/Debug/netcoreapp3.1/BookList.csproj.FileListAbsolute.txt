@@ -77,3 +77,4 @@ C:\Users\17789\source\repos\BookList\BookList\obj\Debug\netcoreapp3.1\BookList.V
 C:\Users\17789\source\repos\BookList\BookList\obj\Debug\netcoreapp3.1\BookList.dll
 C:\Users\17789\source\repos\BookList\BookList\obj\Debug\netcoreapp3.1\BookList.pdb
 C:\Users\17789\source\repos\BookList\BookList\obj\Debug\netcoreapp3.1\BookList.genruntimeconfig.cache
+C:\Users\17789\source\repos\BookList\BookList\obj\Debug\netcoreapp3.1\Razor\Views\BookList\Index.cshtml.g.cs
