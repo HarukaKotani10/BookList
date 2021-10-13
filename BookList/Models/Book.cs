@@ -14,7 +14,7 @@ namespace BookList.Models
 
         [Required]
 
-        public string name { get; set; }
+        public string Name { get; set; }
 
         public string Author { get; set; }
 
