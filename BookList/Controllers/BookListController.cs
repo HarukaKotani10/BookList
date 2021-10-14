@@ -20,5 +20,21 @@ namespace BookList.Controllers
             IEnumerable<Book> objList = _db.Book;
             return View(objList);
         }
+
+        // GET
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        // POST
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Create(Book obj)
+        {
+            _db.Book.Add(obj);
+            _db.SaveChanges();
+            return RedirectToAction("Index");
+        }
     }
 }

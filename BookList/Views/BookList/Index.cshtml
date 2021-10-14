@@ -1,8 +1,5 @@
 ﻿@model IEnumerable<Book>
 
-
-
-
 @{
     ViewData["Title"] = "Index";
 }
@@ -13,7 +10,7 @@
         <h2 class="text-info">Book List</h2>
     </div>
     <div class="col-3">
-        <a class="btn btn-info form-control text-white">Create New</a>
+        <a asp-controller="BookList" asp-action="Create" class="btn btn-info form-control text-white">Create New</a>
     </div>
 
 
@@ -37,9 +34,12 @@
                         @foreach (var obj in Model)
                         {
                         <tr>
-                            <td width="50%">obj.Name</td>
-                            <td width="50%">obj.Author</td>
-                            <td></td>
+                            <td width="50%">@obj.Name</td>
+                            <td width="50%">@obj.Author</td>
+                            <td>
+                                <button class="btn btn-danger btn-sm">Delete</button>
+                                <a class="btn btn-success btn-sm text-white">Edit</a>
+                            </td>
                         </tr>
                         }
                     </tbody>
