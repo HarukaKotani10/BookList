@@ -10,7 +10,9 @@
         <h2 class="text-info">Book List</h2>
     </div>
     <div class="col-3">
-        <a asp-controller="BookList" asp-action="Create" class="btn btn-info form-control text-white">Create New</a>
+        <a asp-controller="BookList" asp-action="Create" class="btn btn-primary">
+        Create New
+        </a>
     </div>
 
 
@@ -36,9 +38,15 @@
                         <tr>
                             <td width="50%">@obj.Name</td>
                             <td width="50%">@obj.Author</td>
-                            <td>
-                                <button class="btn btn-danger btn-sm">Delete</button>
-                                <a class="btn btn-success btn-sm text-white">Edit</a>
+                            <td class="text-center">
+                                <div class="w-75 btn-group" role="group">
+                                    <a asp-controller="BookList" asp-route-Id="@obj.Id" asp-action="Edit" class="btn btn-primary mx-2">
+                                        Edit
+                                    </a>
+                                    <a asp-controller="BookList" asp-route-Id="@obj.Id" asp-action="Delete" class="btn btn-danger">
+                                        Delete
+                                    </a>
+                                </div>
                             </td>
                         </tr>
                         }

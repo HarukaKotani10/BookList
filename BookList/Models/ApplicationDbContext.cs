@@ -14,6 +14,5 @@ namespace BookList.Models
         }
 
         public DbSet<Book> Book { get; set; }
-        public DbSet<ApplicationType> ApplicationTypes { get; set; }
     }
 }
