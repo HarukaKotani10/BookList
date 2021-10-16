@@ -426,3 +426,4 @@ C:\Users\17789\source\repos\BookList\BookList\obj\Debug\netcoreapp3.1\BookList.M
 C:\Users\17789\source\repos\BookList\BookList\obj\Debug\netcoreapp3.1\Razor\Views\BookList\Index.cshtml.g.cs
 C:\Users\17789\source\repos\BookList\BookList\obj\Debug\netcoreapp3.1\Razor\Views\BookList\Create.cshtml.g.cs
 C:\Users\17789\source\repos\BookList\BookList\obj\Debug\netcoreapp3.1\Razor\Views\BookList\Edit.cshtml.g.cs
+C:\Users\17789\source\repos\BookList\BookList\obj\Debug\netcoreapp3.1\Razor\Views\BookList\Delete.cshtml.g.cs
